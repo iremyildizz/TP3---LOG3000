@@ -42,25 +42,29 @@
         │ └── style.css
         ├── tests/
         │ └── test_operators.py
+        │ └──test_app_calculate.py
+        │ └──README.md
+        │ └──_pycache_/
         └── README.md
+        └── _pycache_/
 
 ## Prérequis
 
-Avant d’installer le projet, vous devez avoir :
+    Avant d’installer le projet, vous devez avoir :
 
-- **Python** (version 3.10+)
-- **pip** (gestionnaire de paquets Python)
-- **Git**
-- Un compte **GitHub** (pour cloner le dépôt)
-- (Optionnel mais recommandé) **Un environnement virtuel (`venv`)**
+        - **Python** (version 3.10+)
+        - **pip** (gestionnaire de paquets Python)
+        - **Git**
+        - Un compte **GitHub** (pour cloner le dépôt)
+        - (Optionnel mais recommandé) **Un environnement virtuel (`venv`)**
 
-Vous pouvez vérifier les versions installées avec :
+    Vous pouvez vérifier les versions installées avec :
 
-```bash
-python --version
-pip --version
-git --version
-```
+        ```bash
+        python --version
+        pip --version
+        git --version
+        ```
 
 ## Installation
 
