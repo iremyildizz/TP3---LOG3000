@@ -21,6 +21,7 @@ Avant d’installer le projet, vous devez avoir :
 - **pip** (gestionnaire de paquets Python)
 - **Git**
 - Un compte **GitHub** (pour cloner le dépôt)
+- (Optionnel mais recommandé) **Un environnement virtuel (`venv`)**
 
 Vous pouvez vérifier les versions installées avec :
 
