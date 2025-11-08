@@ -23,9 +23,9 @@ def subtract(a,b):
 
     :param a: premier opérande
     :param b: deuxième opérande
-    :return: différence entre b et a
+    :return: différence entre a et b
     """
-    return b - a
+    return a - b
 
 def multiply(a,b):
     """
