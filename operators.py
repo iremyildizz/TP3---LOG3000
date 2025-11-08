@@ -45,4 +45,6 @@ def divide(a,b):
     :param b: deuxième opérande
     :return: résultat de la division de a par b
     """
-    return a // b
+    if b == 0:
+        raise ZeroDivisionError("Division par zéro interdite.")
+    return a / b
