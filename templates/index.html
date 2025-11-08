@@ -45,11 +45,13 @@
 </div>
 
 <script>
+   // Ajoute la valeur du bouton à la fin du contenu du champ "display".
    function appendToDisplay(value) {
       const display = document.getElementById('display');
       display.value += value;
    }
 
+   // Efface le contenu du champ "display".
    function clearDisplay() {
       document.getElementById('display').value = '';
    }
