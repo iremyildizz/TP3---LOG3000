@@ -33,16 +33,16 @@
 
 # Structure du Projet
 
-TP3---LOG3000/
-├── app.py --> Application Flask principale
-├── operators.py --> Fonctions de calcul (logique métier)
-├── templates/
-│ └── index.html --> Interface web (frontend)
-├── static/
-│ └── style.css --> Styles CSS
-├── tests/
-│ └── test_operators.py --> Tests unitaires (pytest)
-└── README.md --> Documentation principale
+        TP3---LOG3000/
+        ├── app.py
+        ├── operators.py
+        ├── templates/
+        │ └── index.html
+        ├── static/
+        │ └── style.css
+        ├── tests/
+        │ └── test_operators.py
+        └── README.md
 
 ## Prérequis
 
