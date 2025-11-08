@@ -1,3 +1,14 @@
+/* 
+   style.css
+
+   Définit l'apparence de la calculatrice web :
+   - centrage de la calculatrice dans la page
+   - couleurs de fond
+   - style du champ d'affichage
+   - grille de boutons et styles des opérateurs
+*/
+
+/* Mise en page globale de la page (centrage vertical et horizontal) */
 body {
    font-family: Arial, sans-serif;
    background-color: #f0f0f0;
@@ -8,6 +19,7 @@ body {
    margin: 0;
 }
 
+/* Conteneur principal de la calculatrice */
 .calculator {
    width: 100%;
    max-width: 600px;
@@ -24,6 +36,7 @@ h1 {
    font-size: 36px;
 }
 
+/* Champ d'affichage du résultat et de l'expression */
 #display {
    width: 100%;
    height: 80px;
@@ -37,6 +50,7 @@ h1 {
    color: #fff;
 }
 
+/* Grille de boutons (nombres et opérateurs) */
 .buttons {
    display: grid;
    grid-template-columns: repeat(4, 1fr);

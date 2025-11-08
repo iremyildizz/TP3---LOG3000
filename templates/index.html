@@ -4,15 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flask Calculator</title>
+<!-- Feuille de style principale de la calculatrice -->
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 <div class="calculator">
+    <!-- Titre de l'application -->
    <h1>Flask Calculator</h1>
+
+   <!-- Formulaire principal :
+        - le champ "display" affiche l'expression et le résultat,
+        - les boutons modifient la valeur du champ côté client,
+        - le bouton "=" envoie l'expression au serveur (méthode POST). -->
    <form method="POST">
       <input type="text" name="display" id="display" value="{{ result }}" readonly>
 
       <div class="buttons">
+         <!-- Ligne des boutons 1, 2, 3 et + -->
          <button type="button" class="btn" onclick="appendToDisplay('1')">1</button>
          <button type="button" class="btn" onclick="appendToDisplay('2')">02</button>
          <button type="button" class="btn" onclick="appendToDisplay('3')">3</button>
